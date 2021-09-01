@@ -1,0 +1,23 @@
+<html>
+<body bgcolor="PINK">
+<h1>WELCOME TO TOUR INDIA</h1>
+<h2><p>Plan the perfect vacation with Arizona's official travel guide. Discover inspiring things to do from outdoor fun to arts and culture, events, and culinary hot spots.</p></h2>
+<b><p style="text-align:right"><a href="login.html">SIGN UP</a></p></b>
+<b><p style="text-align:left"><a href="buysell.html">CLICK HERE FOR THE RECOMENDED DESTINATIONS</a></p></b>
+<canvas id="myCanvas" width="500" height="350"
+style="border:8px solid #000000;">
+<img id="home" 
+src="home.jpg">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+
+<script>
+window.onload = function() {
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    var img = document.getElementById("home");
+   ctx.drawImage(img, 15, 15);
+};
+</script>
+</body>
+</html>
